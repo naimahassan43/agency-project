@@ -18,7 +18,7 @@
 
 h1 {
     font-size: 3.3rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--title-color);
 }
 
@@ -45,6 +45,31 @@ li {
 
 a {
     text-decoration: none;
+}
+
+
+/* common-title */
+
+.common-title {
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.common-title h1 {
+    margin: 0;
+}
+
+.common-title h3 {
+    margin-top: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.common-title .btm-border {
+    width: 47px;
+    height: 5px;
+    background: var(--title-color);
+    margin: 0 auto;
 }
 
 
@@ -216,7 +241,37 @@ banner section end
 about section start
 ************/
 
+#about {}
+
+.abt-title {}
+
+.abt-title h1 {}
+
+.abt-title h3 {}
+
+.btm-border {}
+
 
 /************ 
 about section end
+************/
+
+
+/************ 
+approach section start
+************/
+
+
+/************ 
+approach section end
+************/
+
+
+/************ 
+approach section start
+************/
+
+
+/************ 
+approach section end
 ************/
