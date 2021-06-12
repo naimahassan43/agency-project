@@ -272,6 +272,72 @@ about section end
 approach section start
 ************/
 
+#approach {
+    background: var(--bg-color-2);
+}
+
+.appr-title {}
+
+.appr-content {}
+
+
+/* single item */
+
+.single-appr {
+    background: var(--bg-color);
+    margin-bottom: 3.5rem;
+    -webkit-box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.78);
+    box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.78);
+    border-radius: 5px;
+}
+
+.single-appr .row {
+    --bs-gutter-x: 0!important;
+}
+
+.left-part {
+    position: relative;
+}
+
+.left-part img {
+    border-radius: 5px 0 0 5px !important;
+}
+
+.left-part .right-img {
+    width: 100px;
+    height: 100px;
+    background: var(--col-red);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    right: -5%;
+    z-index: 2;
+}
+
+.right-img p {
+    color: var(--bg-color);
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.num {
+    font-size: 4.5rem !important;
+    font-weight: 900!important;
+}
+
+.t-2 img {
+    border-radius: 0 5px 5px 0 !important;
+}
+
+.type-2 {
+    top: 30%;
+    left: -14%;
+}
+
+.single-appr-content {}
+
 
 /************ 
 approach section end
