@@ -52,7 +52,7 @@ a {
 
 .common-title {
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 10rem;
     margin-bottom: 4rem;
 }
 
@@ -247,9 +247,18 @@ about section start
 
 .abt-title h1 {}
 
-.abt-title h3 {}
+.abt-content {
+    margin-bottom: 11rem;
+}
 
-.btm-border {}
+.abt-content img {}
+
+.abt-content h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.abt-content p {}
 
 
 /************ 
