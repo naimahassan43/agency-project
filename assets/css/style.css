@@ -66,7 +66,6 @@ header {
 }
 
 .top-bar ul li {
-    /* margin-left: auto; */
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--title-color);
@@ -100,7 +99,7 @@ header {
 }
 
 .cus-nav {
-    padding: 3.5rem 0;
+    padding: 2.6rem 0;
 }
 
 .logo {}
@@ -162,6 +161,54 @@ header {
 
 /************ 
 header area end
+************/
+
+
+/************ 
+banner section start
+************/
+
+#banner {
+    /* border: 1px solid #de2b24; */
+    min-height: 73vh;
+    background: linear-gradient( rgba(14, 13, 13, 0.7), rgba(15, 15, 15, 0.7)), url(../img/banner-1.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-cont {
+    /* padding: 40px 0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-cont h1 {
+    color: var(--bg-color);
+}
+
+.banner-cont p {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: var(--bg-color-2);
+    margin-bottom: 2.8rem;
+}
+
+.banner-cont a {
+    font-size: 2.1rem;
+    font-weight: 400;
+    background: #f8cd53;
+    color: #fff !important;
+    padding: 6px 25px;
+}
+
+.banner-btn {}
+
+
+/************ 
+banner section end
 ************/
 
 
