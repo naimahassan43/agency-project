@@ -96,7 +96,7 @@ header {
 /* menu-bar */
 
 .menu-bar {
-    border: 1px solid rgb(165, 150, 18);
+    /* border: 1px solid rgb(165, 150, 18); */
 }
 
 .cus-nav {
@@ -162,4 +162,14 @@ header {
 
 /************ 
 header area end
+************/
+
+
+/************ 
+about section start
+************/
+
+
+/************ 
+about section end
 ************/
