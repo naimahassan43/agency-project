@@ -91,3 +91,75 @@ header {
 .top-bar ul li:last-child i {
     font-size: 3rem;
 }
+
+
+/* menu-bar */
+
+.menu-bar {
+    border: 1px solid rgb(165, 150, 18);
+}
+
+.cus-nav {
+    padding: 3.5rem 0;
+}
+
+.logo {}
+
+.logo a {}
+
+.logo a img {}
+
+.logo-cont {}
+
+.logo-cont h1 {
+    margin: 0;
+}
+
+.logo-cont p {
+    font-size: 1.6rem;
+    margin: 0;
+    color: var(--title-color);
+}
+
+.cus-nav button {}
+
+.cus-nav span {}
+
+
+/* menu */
+
+.cus-menu {}
+
+.cus-menu ul {}
+
+.cus-menu ul li {
+    margin: 0 1.2rem;
+}
+
+.cus-menu ul li:last-child {
+    margin: 0;
+}
+
+.cus-menu ul li a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.cus-menu ul span {
+    height: 0.8rem;
+    width: 0.8rem;
+    background: var(--title-color);
+    border-radius: 50%;
+    margin-top: 1.4rem;
+}
+
+.cons-btn a {
+    background: var(--col-red);
+    color: #fff !important;
+}
+
+
+/************ 
+header area end
+************/
