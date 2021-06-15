@@ -242,14 +242,17 @@ banner section end
 about section start
 ************/
 
-#about {}
+#about {
+    padding-bottom: 12rem;
+}
 
 .abt-title {}
 
 .abt-title h1 {}
 
 .abt-content {
-    margin-bottom: 11rem;
+    /* margin-bottom: 11rem; */
+    transition: 2s ease;
 }
 
 .abt-content img {}
@@ -261,6 +264,12 @@ about section start
 
 .abt-content p {
     line-height: 1.6;
+}
+
+.abt-sing:hover {
+    -webkit-box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.3);
+    transform: translate(0px, -4px);
 }
 
 
@@ -275,6 +284,7 @@ approach section start
 
 #approach {
     background: var(--bg-color-2);
+    padding-bottom: 12rem;
 }
 
 .appr-title {}
@@ -287,9 +297,14 @@ approach section start
 .single-appr {
     background: var(--bg-color);
     margin-bottom: 3.5rem;
-    -webkit-box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.78);
-    box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.78);
     border-radius: 5px;
+    transition: 2s ease;
+}
+
+.single-appr:hover {
+    -webkit-box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 11px 5px rgba(0, 0, 0, 0.5);
+    transform: translate(0px, -5px);
 }
 
 .single-appr .row {
@@ -310,6 +325,8 @@ approach section start
     background: var(--col-red);
     border: 2px solid #fff;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 17px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 1px 1px 17px 5px rgba(0, 0, 0, 0);
     display: inline-block;
     position: absolute;
     top: 30%;
@@ -357,6 +374,137 @@ approach section end
 
 
 /************ 
+work section start
+************/
+
+#work {
+    background: var(--col-red);
+    padding-bottom: 12rem;
+}
+
+.work-title {}
+
+.work-title h1,
+.work-title h3 {
+    color: #fff!important;
+}
+
+.work-title .btm-border {
+    background: #fff !important;
+}
+
+.work-content {}
+
+
+/* single item portfolio */
+
+.first-row {}
+
+.sing-work-content {
+    position: relative;
+    width: 90%;
+    /* max-width: 400px; */
+    /* margin: auto; */
+    /* margin-bottom: 3.5rem; */
+    overflow: hidden;
+}
+
+.sing-work-content .sing-work-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.sing-work-content:hover .sing-work-overlay {
+    opacity: 1;
+}
+
+.sing-cont-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: var(--col-pur);
+    color: #fff !important;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.sing-work-content:hover .sing-cont-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.sing-cont-details i {
+    font-size: 3.6rem!important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5rem;
+}
+
+.sing-cont-details h3 {
+    font-size: 2.6rem!important;
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.sing-cont-details p {
+    color: #fff !important;
+    font-size: 1.4rem!important;
+    padding-bottom: 8rem;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+.fadeIn-top {
+    top: 20%;
+}
+
+.fadeIn-left {
+    left: 20%;
+}
+
+.fadeIn-right {
+    left: 80%;
+}
+
+
+/************ 
+work section end
+************/
+
+
+/************ 
+contact section start
+************/
+
+
+/************ 
+contact section end
+************/
+
+
+/************ 
 approach section start
 ************/
 
@@ -364,3 +512,31 @@ approach section start
 /************ 
 approach section end
 ************/
+
+
+/* .main-title {
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+}
+
+.container {
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+} */
+
+
+/* @media screen and (max-width: 640px) {
+    .container {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        width: 33.33333%;
+    }
+} */
