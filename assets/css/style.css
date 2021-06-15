@@ -403,9 +403,6 @@ work section start
 .sing-work-content {
     position: relative;
     width: 90%;
-    /* max-width: 400px; */
-    /* margin: auto; */
-    /* margin-bottom: 3.5rem; */
     overflow: hidden;
 }
 
@@ -497,6 +494,83 @@ work section end
 /************ 
 contact section start
 ************/
+
+#contact {
+    background: #1287bf;
+    padding-bottom: 12rem;
+}
+
+.conct-title {}
+
+.conct-title h1,
+.conct-title h3 {
+    color: #fff!important;
+}
+
+.conct-title .btm-border {
+    background: transparent !important;
+    width: 5rem !important;
+    height: 5rem !important;
+    border: 3px solid #fff !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.conct-title .btm-border i {
+    font-size: 3rem !important;
+    color: #fff !important;
+}
+
+
+/* .cont-content {
+    background:
+} */
+
+.cont-content {
+    width: 100%;
+    height: auto;
+    background: #fff !important;
+    position: relative;
+    /* -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; */
+    /* border-radius: 10px; */
+    padding: 30px 0;
+}
+
+.cont-content:before {
+    content: "";
+    position: absolute;
+    /* right: 45%; */
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -100%);
+    /* bottom: 100%; */
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent !important;
+    border-bottom: 30px solid #fff;
+}
+
+.cont-content .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    transform: translate(40%, -45%);
+    color: #fff !important;
+    background: #5c5c5c;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    padding: 8px;
+}
 
 
 /************ 
