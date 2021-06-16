@@ -23,7 +23,7 @@
     <!-- ==============header area start========= -->
     <header id="header">
         <!-- top-bar -->
-        <div class="top-bar">
+        <div class="top-bar d-none d-lg-block">
             <div class="container">
                 <ul class="d-flex flex-row justify-content-end m-0">
                     <li><i class="fa fa-mobile"></i>6337 3128</li>
@@ -41,17 +41,20 @@
                     <div class="container-fluid">
 
                         <!-- logo -->
-                        <div class="logo">
-                            <a class="navbar-brand" href="#">
-                                <img src="assets/img/logo.png" alt="logo" class="img-fluid align-text-top">
-                            </a>
-                        </div>
-                        <div class="logo-cont">
-                            <h1>Business</h1>
-                            <p>Tagline goes here</p>
-                        </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCont" aria-controls="navCont" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                        <a class="logo d-flex align-items-center" href="index.html">
+                            <div class="logo-img">
+                                <img src="assets/img/logo.png" alt="logo" class="img-fluid">
+                            </div>
+
+                            <div class="logo-cont">
+                                <h1>Business</h1>
+                                <p>Tagline goes here</p>
+                            </div>
+                        </a>
+
+                        <button class="navbar-toggler cus-nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCont" aria-controls="navCont" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                <!-- <span class="navbar-toggler-icon"></span> -->
                 </button>
 
                         <div class="collapse navbar-collapse cus-menu" id="navCont">
@@ -92,7 +95,6 @@
             <h1>We Providing </h1>
             <p>Social Media marketing for businesses</p>
             <a class="btn banner-btn" href="#" role="button">Free Consultation</a>
-
         </div>
 
     </section>
@@ -363,7 +365,7 @@
     <section id="analysis">
         <div class="container">
             <div class="row">
-                <div class="col-8 offset-2">
+                <div class="col-10 offset-1">
                     <div class="common-title analysis-title">
                         <h1>Get Your Free Facebook Analysis Now </h1>
                         <h3>Enter your details below</h3>
@@ -428,13 +430,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <!--/. common-title-->
-
-
         </div>
-        <!--/. row -->
         </div>
     </section>
     <!-- ==============Contact section end========= -->

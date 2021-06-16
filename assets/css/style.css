@@ -134,10 +134,13 @@ header {
 
 .logo a img {}
 
-.logo-cont {}
+.logo-cont {
+    margin-left: 2rem;
+}
 
 .logo-cont h1 {
     margin: 0;
+    /* display: inline-block; */
 }
 
 .logo-cont p {
@@ -182,6 +185,21 @@ header {
 .cons-btn a {
     background: var(--col-red);
     color: #fff !important;
+}
+
+.cus-nav-toggler {
+    text-align: center;
+}
+
+.cus-nav-toggler i {
+    font-size: 3.2rem;
+    color: #544f4f;
+}
+
+.cus-nav-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
 }
 
 
