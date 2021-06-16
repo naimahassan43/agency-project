@@ -11,6 +11,27 @@
      html {
          font-size: 50%;
      }
+     .img-fluid {
+         max-width: 80%;
+     }
+     .logo-cont h1 {
+         font-size: 2.6rem !important;
+     }
+     .logo-cont p {
+         font-size: 1.4rem !important;
+     }
+     .logo-cont {
+         margin-left: 0!important;
+     }
+     .cus-nav-toggler i {
+         font-size: 2.8rem;
+     }
+     .cus-nav {
+         padding: 1.4rem 0;
+     }
+     .abt-sing {
+         margin-bottom: 20px;
+     }
      .cus-menu {
          text-align: center;
      }
@@ -28,7 +49,24 @@
      }
      .s-app-2 {
          text-align: start !important;
-         /* margin-right: 3.5rem; */
+     }
+     h1 {
+         font-size: 2.8rem !important;
+     }
+     h2 {
+         font-size: 1.8rem;
+     }
+     .sing-cont-details i {
+         font-size: 2rem!important;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+     .sing-cont-details h3 {
+         font-size: 1.4rem!important;
+     }
+     .cont-btn {
+         font-size: 1.2rem!important;
+         padding: 7px 10px;
      }
  }
  /* // Medium devices (tablets, less than 992px) */
@@ -49,7 +87,11 @@
      }
      .banner-cont p {
          font-size: 2rem;
-         margin-bottom: 2.2rem;
+         margin-bottom: 2rem;
+     }
+     .banner-cont a {
+         font-size: 1.8rem;
+         padding: 6px 18px;
      }
      #about,
      #approach,
@@ -58,7 +100,7 @@
          padding-bottom: 5.5rem;
      }
      h1 {
-         font-size: 3rem !important;
+         font-size: 3rem;
      }
      h2 {
          font-size: 2rem;
@@ -81,12 +123,12 @@
          margin-right: 2.3rem;
      }
      .sing-cont-details i {
-         font-size: 3rem!important;
+         font-size: 3rem;
          margin-top: 20px;
          margin-bottom: 20px;
      }
      .sing-cont-details h3 {
-         font-size: 1.8rem!important;
+         font-size: 1.8rem;
      }
      .btm-drop {
          width: 4rem !important;
@@ -117,7 +159,7 @@
          padding: .8rem;
      }
      .cont-btn {
-         font-size: 1.4rem !important;
+         font-size: 1.4rem;
          padding: 7px 10px;
      }
      .social {
