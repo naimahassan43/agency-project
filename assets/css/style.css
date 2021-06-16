@@ -492,22 +492,24 @@ work section end
 
 
 /************ 
-contact section start
+Analysis section start
 ************/
 
-#contact {
+#analysis {
     background: #1287bf;
-    padding-bottom: 12rem;
+    padding-bottom: 10rem;
 }
 
-.conct-title {}
+.analysis-title {
+    margin-bottom: 3.5rem!important;
+}
 
-.conct-title h1,
-.conct-title h3 {
+.analysis-title h1,
+.analysis-title h3 {
     color: #fff!important;
 }
 
-.conct-title .btm-border {
+.btm-drop {
     background: transparent !important;
     width: 5rem !important;
     height: 5rem !important;
@@ -516,38 +518,29 @@ contact section start
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
-.conct-title .btm-border i {
+.btm-drop i {
     font-size: 3rem !important;
     color: #fff !important;
 }
 
-
-/* .cont-content {
-    background:
-} */
-
-.cont-content {
+.dropdown-form {
     width: 100%;
     height: auto;
     background: #fff !important;
     position: relative;
-    /* -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; */
-    /* border-radius: 10px; */
-    padding: 30px 0;
+    /* padding: 30px 0; */
+    z-index: 1;
 }
 
-.cont-content:before {
+.dropdown-form:before {
     content: "";
     position: absolute;
-    /* right: 45%; */
     left: 50%;
     top: 0;
     transform: translate(-50%, -100%);
-    /* bottom: 100%; */
     width: 0;
     height: 0;
     border-right: 30px solid transparent;
@@ -555,26 +548,50 @@ contact section start
     border-bottom: 30px solid #fff;
 }
 
-.cont-content .btn-close {
+.dropdown-form i {
     position: absolute;
     top: 0;
     right: 0;
-    width: 3rem;
-    height: 3rem;
     transform: translate(40%, -45%);
+    z-index: 99;
     color: #fff !important;
-    background: #5c5c5c;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 10px;
-    padding: 8px;
+    font-size: 50px;
+}
+
+.form-part-sub p {
+    font-size: 1.6rem;
+    padding-top: 50px;
+}
+
+.form-part {
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+
+.form-part>div {
+    margin-bottom: 2rem!important;
+}
+
+.form-part .form-control {
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.cont-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: var(--col-red);
+    color: #fff !important;
+    font-size: 1.6rem !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
 }
 
 
 /************ 
-contact section end
+Analysis section end
 ************/
 
 
@@ -586,31 +603,3 @@ approach section start
 /************ 
 approach section end
 ************/
-
-
-/* .main-title {
-    color: #2d2d2d;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 0.7em 0;
-}
-
-.container {
-    padding: 1em 0;
-    float: left;
-    width: 50%;
-} */
-
-
-/* @media screen and (max-width: 640px) {
-    .container {
-        display: block;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .container {
-        width: 33.33333%;
-    }
-} */
