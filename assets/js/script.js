@@ -5,7 +5,7 @@ document.querySelector('#btm-drop').addEventListener('click', function() {
         dropForm.style.height = "0%";
     } else {
         dropForm.style.display = "block";
-        dropForm.style.height = "100%";
+        dropForm.style.height = "auto";
     }
 
 });

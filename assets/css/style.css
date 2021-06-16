@@ -596,10 +596,75 @@ Analysis section end
 
 
 /************ 
-approach section start
+contact section start
 ************/
+
+#contact {
+    background: #2a2a2a;
+    padding-bottom: 2rem;
+}
+
+.cont-title h1,
+.cont-title p {
+    color: #fff !important;
+}
+
+.cont-title p {
+    font-size: 1.6rem!important;
+}
+
+.social {
+    color: #fff !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social span {
+    margin: 0 5px;
+    border: 2px solid #515151;
+    border-radius: 5px;
+    padding: 15px 6px;
+}
+
+.social span i {
+    font-size: 2.2rem;
+    padding: 10px;
+}
+
+.cust-email {
+    margin: 30px 0;
+}
+
+.cust-email .form-control {
+    color: #cecece!important;
+    background: #515151!important;
+    font-size: 1.4rem!important;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+
+.btn-subscribe {
+    font-size: 1.6rem!important;
+    font-weight: 600;
+    color: #cecece!important;
+    background: transparent !important;
+    border: 2px solid #515151;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
 
 
 /************ 
-approach section end
+contact section end
 ************/
+
+footer {
+    background: #515151;
+    padding: 2rem;
+}
+
+footer p {
+    color: #cecece;
+    margin-bottom: 0;
+}
