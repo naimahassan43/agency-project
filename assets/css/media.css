@@ -11,7 +11,7 @@
      html {
          font-size: 50%;
      }
-     .img-fluid {
+     .logo-img img {
          max-width: 80%;
      }
      .logo-cont h1 {
@@ -60,6 +60,7 @@
          font-size: 2rem!important;
          margin-top: 10px;
          margin-bottom: 10px;
+         padding-top: 8rem;
      }
      .sing-cont-details h3 {
          font-size: 1.4rem!important;
@@ -136,12 +137,6 @@
      }
      .btm-drop i {
          font-size: 2rem !important;
-     }
-     /* .analysis-title h1 {
-         font-size: 3rem !important;
-     } */
-     .dropdown-form i {
-         font-size: 36px;
      }
      .form-part-sub p {
          font-size: 1.5rem;
