@@ -78,17 +78,8 @@ a {
 header area start
 ************/
 
-header {
-    /* border: 1px solid rgb(40, 165, 18); */
-}
-
 .top-bar {
-    /* border: 1px solid rgb(165, 18, 18); */
     background: var(--bg-color-2);
-}
-
-.top-bar ul {
-    /* padding: 2rem 0; */
 }
 
 .top-bar ul li {
@@ -120,19 +111,9 @@ header {
 
 /* menu-bar */
 
-.menu-bar {
-    /* border: 1px solid rgb(165, 150, 18); */
-}
-
 .cus-nav {
     padding: 2.6rem 0;
 }
-
-.logo {}
-
-.logo a {}
-
-.logo a img {}
 
 .logo-cont {
     margin-left: 2rem;
@@ -140,7 +121,6 @@ header {
 
 .logo-cont h1 {
     margin: 0;
-    /* display: inline-block; */
 }
 
 .logo-cont p {
@@ -149,16 +129,8 @@ header {
     color: var(--title-color);
 }
 
-.cus-nav button {}
-
-.cus-nav span {}
-
 
 /* menu */
-
-.cus-menu {}
-
-.cus-menu ul {}
 
 .cus-menu ul li {
     margin: 0 1.2rem;
@@ -232,7 +204,6 @@ banner section start
 ************/
 
 #banner {
-    /* border: 1px solid #de2b24; */
     min-height: 73vh;
     background: linear-gradient( rgba(14, 13, 13, 0.7), rgba(15, 15, 15, 0.7)), url(../img/banner-1.jpg) no-repeat center;
     background-size: cover;
@@ -240,7 +211,6 @@ banner section start
 }
 
 .banner-cont {
-    /* padding: 40px 0; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -267,8 +237,6 @@ banner section start
     padding: 6px 25px;
 }
 
-.banner-btn {}
-
 
 /************ 
 banner section end
@@ -283,16 +251,9 @@ about section start
     padding-bottom: 12rem;
 }
 
-.abt-title {}
-
-.abt-title h1 {}
-
 .abt-content {
-    /* margin-bottom: 11rem; */
     transition: 2s ease;
 }
-
-.abt-content img {}
 
 .abt-content h2 {
     margin-top: 2rem;
@@ -323,10 +284,6 @@ approach section start
     background: var(--bg-color-2);
     padding-bottom: 12rem;
 }
-
-.appr-title {}
-
-.appr-content {}
 
 
 /* single item */
@@ -393,7 +350,6 @@ approach section start
 }
 
 .single-appr-content {
-    /* border: 1px solid #de2b24; */
     padding: 4rem;
     margin-top: 3rem;
     margin-left: 2rem;
@@ -419,8 +375,6 @@ work section start
     padding-bottom: 12rem;
 }
 
-.work-title {}
-
 .work-title h1,
 .work-title h3 {
     color: #fff!important;
@@ -430,12 +384,8 @@ work section start
     background: #fff !important;
 }
 
-.work-content {}
-
 
 /* single item portfolio */
-
-.first-row {}
 
 .sing-work-content {
     position: relative;
@@ -555,7 +505,6 @@ Analysis section start
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    /* margin-bottom: 40px; */
 }
 
 .btm-drop i {
@@ -568,7 +517,6 @@ Analysis section start
     height: auto;
     background: #fff !important;
     position: relative;
-    /* padding: 30px 0; */
     z-index: 1;
 }
 
@@ -584,12 +532,6 @@ Analysis section start
     border-left: 30px solid transparent !important;
     border-bottom: 30px solid #fff;
 }
-
-
-/* .dropdown-form i {
-    color: #fff !important;
-    font-size: 50px;
-} */
 
 .dropdown-form i {
     content: "";
