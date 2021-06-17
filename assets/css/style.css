@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-* {
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -111,6 +112,21 @@ header area start
 
 /* menu-bar */
 
+#menuBar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s linear;
+    z-index: 99999;
+}
+
+.fixed-nav #menuBar {
+    position: fixed;
+    opacity: .8;
+    background: rgb(243, 241, 241);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+
 .cus-nav {
     padding: 2.6rem 0;
 }
@@ -146,10 +162,22 @@ header area start
     color: var(--title-color);
 }
 
-.cus-menu ul li:hover a,
+.cus-menu ul li a,
+.cus-menu ul li a:after,
+.cus-menu ul li a:before {
+    transition: all .5s;
+}
+
 .banner-btn:hover {
     background: var(--col-red);
     color: #fff !important;
+}
+
+.current {
+    background: #f8cd53!important;
+    color: #fff;
+    -webkit-box-shadow: 6px 6px 11px -8px #000000;
+    box-shadow: 6px 6px 11px -8px #000000;
 }
 
 .cons-btn a:hover,
@@ -191,6 +219,45 @@ header area start
     text-decoration: none;
     outline: 0;
     box-shadow: none;
+}
+
+
+/* nav hover effect */
+
+
+/* SHIFT */
+
+.cus-menu ul li a {
+    position: relative;
+    z-index: 1;
+}
+
+.cus-menu ul li a:hover {
+    color: #fff;
+}
+
+.cus-menu ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: var(--col-pur);
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.cus-menu ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
 }
 
 
